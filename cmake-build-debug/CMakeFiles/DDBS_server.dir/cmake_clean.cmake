@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/DDBS_server.dir/src/assembly_restore.c.o"
+  "CMakeFiles/DDBS_server.dir/src/cap_rewrite.c.o"
+  "CMakeFiles/DDBS_server.dir/src/cbr_rewrite.c.o"
+  "CMakeFiles/DDBS_server.dir/src/cfl_rewrite.c.o"
+  "CMakeFiles/DDBS_server.dir/src/cma.c.o"
+  "CMakeFiles/DDBS_server.dir/src/config.c.o"
+  "CMakeFiles/DDBS_server.dir/src/dedup_phase.c.o"
+  "CMakeFiles/DDBS_server.dir/src/destor.c.o"
+  "CMakeFiles/DDBS_server.dir/src/do_backup.c.o"
+  "CMakeFiles/DDBS_server.dir/src/do_restore.c.o"
+  "CMakeFiles/DDBS_server.dir/src/filter_phase.c.o"
+  "CMakeFiles/DDBS_server.dir/src/har_rewrite.c.o"
+  "CMakeFiles/DDBS_server.dir/src/index/fingerprint_cache.c.o"
+  "CMakeFiles/DDBS_server.dir/src/index/index.c.o"
+  "CMakeFiles/DDBS_server.dir/src/index/kvstore.c.o"
+  "CMakeFiles/DDBS_server.dir/src/index/kvstore_htable.c.o"
+  "CMakeFiles/DDBS_server.dir/src/index/sampling_method.c.o"
+  "CMakeFiles/DDBS_server.dir/src/index/segmenting_method.c.o"
+  "CMakeFiles/DDBS_server.dir/src/index/similarity_detection.c.o"
+  "CMakeFiles/DDBS_server.dir/src/jcr.c.o"
+  "CMakeFiles/DDBS_server.dir/src/net/network.c.o"
+  "CMakeFiles/DDBS_server.dir/src/net_phase.c.o"
+  "CMakeFiles/DDBS_server.dir/src/optimal_restore.c.o"
+  "CMakeFiles/DDBS_server.dir/src/recipe/recipestore.c.o"
+  "CMakeFiles/DDBS_server.dir/src/restore_aware.c.o"
+  "CMakeFiles/DDBS_server.dir/src/rewrite_phase.c.o"
+  "CMakeFiles/DDBS_server.dir/src/storage/containerstore.c.o"
+  "CMakeFiles/DDBS_server.dir/src/utils/bloom_filter.c.o"
+  "CMakeFiles/DDBS_server.dir/src/utils/lru_cache.c.o"
+  "CMakeFiles/DDBS_server.dir/src/utils/queue.c.o"
+  "CMakeFiles/DDBS_server.dir/src/utils/sds.c.o"
+  "CMakeFiles/DDBS_server.dir/src/utils/serial.c.o"
+  "CMakeFiles/DDBS_server.dir/src/utils/sync_queue.c.o"
+  "DDBS_server"
+  "DDBS_server.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/DDBS_server.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

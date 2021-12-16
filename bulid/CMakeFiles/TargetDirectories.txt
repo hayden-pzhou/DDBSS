@@ -1,0 +1,3 @@
+/home/hayden/DeBackup/DDBSS/bulid/CMakeFiles/edit_cache.dir
+/home/hayden/DeBackup/DDBSS/bulid/CMakeFiles/rebuild_cache.dir
+/home/hayden/DeBackup/DDBSS/bulid/CMakeFiles/DDBS_server.dir

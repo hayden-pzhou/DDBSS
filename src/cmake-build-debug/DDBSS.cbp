@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="DDBSS"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/hayden/B_destor/DDBSS/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hayden/B_destor/DDBSS/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hayden/B_destor/DDBSS/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hayden/B_destor/DDBSS/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hayden/B_destor/DDBSS/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/hayden/B_destor/DDBSS/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hayden/B_destor/DDBSS/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hayden/B_destor/DDBSS/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hayden/B_destor/DDBSS/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hayden/B_destor/DDBSS/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/hayden/B_destor/DDBSS/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hayden/B_destor/DDBSS/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hayden/B_destor/DDBSS/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hayden/B_destor/DDBSS/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hayden/B_destor/DDBSS/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DDBSS">
+				<Option output="/home/hayden/B_destor/DDBSS/src/cmake-build-debug/DDBSS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hayden/B_destor/DDBSS/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hayden/B_destor/DDBSS/src/index"/>
+					<Add directory="/home/hayden/B_destor/DDBSS/src/net"/>
+					<Add directory="/home/hayden/B_destor/DDBSS/src/recipe"/>
+					<Add directory="/home/hayden/B_destor/DDBSS/src/storage"/>
+					<Add directory="/home/hayden/B_destor/DDBSS/src/utils"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hayden/B_destor/DDBSS/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 DDBSS"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hayden/B_destor/DDBSS/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hayden/B_destor/DDBSS/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hayden/B_destor/DDBSS/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DDBSS/fast">
+				<Option output="/home/hayden/B_destor/DDBSS/src/cmake-build-debug/DDBSS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hayden/B_destor/DDBSS/src/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/hayden/B_destor/DDBSS/src/index"/>
+					<Add directory="/home/hayden/B_destor/DDBSS/src/net"/>
+					<Add directory="/home/hayden/B_destor/DDBSS/src/recipe"/>
+					<Add directory="/home/hayden/B_destor/DDBSS/src/storage"/>
+					<Add directory="/home/hayden/B_destor/DDBSS/src/utils"/>
+					<Add directory="/usr/local/include/glib-2.0"/>
+					<Add directory="/usr/local/lib/glib-2.0/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/hayden/B_destor/DDBSS/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 DDBSS/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/hayden/B_destor/DDBSS/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/hayden/B_destor/DDBSS/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/hayden/B_destor/DDBSS/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/hayden/B_destor/DDBSS/src/backup.h">
+			<Option target="DDBSS"/>
+		</Unit>
+		<Unit filename="/home/hayden/B_destor/DDBSS/src/dedup_phase.c">
+			<Option target="DDBSS"/>
+		</Unit>
+		<Unit filename="/home/hayden/B_destor/DDBSS/src/do_backup.c">
+			<Option target="DDBSS"/>
+		</Unit>
+		<Unit filename="/home/hayden/B_destor/DDBSS/src/filter_phase.c">
+			<Option target="DDBSS"/>
+		</Unit>
+		<Unit filename="/home/hayden/B_destor/DDBSS/src/index/fingerprint_cache.c">
+			<Option target="DDBSS"/>
+		</Unit>
+		<Unit filename="/home/hayden/B_destor/DDBSS/src/index/fingerprint_cache.h">
+			<Option target="DDBSS"/>
+		</Unit>
+		<Unit filename="/home/hayden/B_destor/DDBSS/src/index/index.c">
+			<Option target="DDBSS"/>
+		</Unit>
+		<Unit filename="/home/hayden/B_destor/DDBSS/src/index/index.h">
+			<Option target="DDBSS"/>
+		</Unit>
+		<Unit filename="/home/hayden/B_destor/DDBSS/src/index/index_buffer.h">
+			<Option target="DDBSS"/>
+		</Unit>
+		<Unit filename="/home/hayden/B_destor/DDBSS/src/index/kvstore.c">
+			<Option target="DDBSS"/>
+		</Unit>
+		<Unit filename="/home/hayden/B_destor/DDBSS/src/index/kvstore.h">
+			<Option target="DDBSS"/>
+		</Unit>
+		<Unit filename="/home/hayden/B_destor/DDBSS/src/index/kvstore_htable.c">
+			<Option target="DDBSS"/>
+		</Unit>
+		<Unit filename="/home/hayden/B_destor/DDBSS/src/index/sampling_method.c">
+			<Option target="DDBSS"/>
+		</Unit>
+		<Unit filename="/home/hayden/B_destor/DDBSS/src/index/segmenting_method.c">
+			<Option target="DDBSS"/>
+		</Unit>
+		<Unit filename="/home/hayden/B_destor/DDBSS/src/index/similarity_detection.c">
+			<Option target="DDBSS"/>
+		</Unit>
+		<Unit filename="/home/hayden/B_destor/DDBSS/src/net/network.c">
+			<Option target="DDBSS"/>
+		</Unit>
+		<Unit filename="/home/hayden/B_destor/DDBSS/src/net/network.h">
+			<Option target="DDBSS"/>
+		</Unit>
+		<Unit filename="/home/hayden/B_destor/DDBSS/src/net_phase.c">
+			<Option target="DDBSS"/>
+		</Unit>
+		<Unit filename="/home/hayden/B_destor/DDBSS/src/utils/bloom_filter.c">
+			<Option target="DDBSS"/>
+		</Unit>
+		<Unit filename="/home/hayden/B_destor/DDBSS/src/utils/bloom_filter.h">
+			<Option target="DDBSS"/>
+		</Unit>
+		<Unit filename="/home/hayden/B_destor/DDBSS/src/utils/lru_cache.c">
+			<Option target="DDBSS"/>
+		</Unit>
+		<Unit filename="/home/hayden/B_destor/DDBSS/src/utils/lru_cache.h">
+			<Option target="DDBSS"/>
+		</Unit>
+		<Unit filename="/home/hayden/B_destor/DDBSS/src/utils/sds.c">
+			<Option target="DDBSS"/>
+		</Unit>
+		<Unit filename="/home/hayden/B_destor/DDBSS/src/utils/sds.h">
+			<Option target="DDBSS"/>
+		</Unit>
+		<Unit filename="/home/hayden/B_destor/DDBSS/src/utils/serial.c">
+			<Option target="DDBSS"/>
+		</Unit>
+		<Unit filename="/home/hayden/B_destor/DDBSS/src/utils/serial.h">
+			<Option target="DDBSS"/>
+		</Unit>
+		<Unit filename="/home/hayden/B_destor/DDBSS/src/utils/sync_queue.c">
+			<Option target="DDBSS"/>
+		</Unit>
+		<Unit filename="/home/hayden/B_destor/DDBSS/src/utils/sync_queue.h">
+			<Option target="DDBSS"/>
+		</Unit>
+		<Unit filename="/home/hayden/B_destor/DDBSS/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
